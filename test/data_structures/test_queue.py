@@ -2,7 +2,7 @@ from unittest import TestCase
 from data_structures.Queue import Queue
 
 
-class TestStack(TestCase):
+class TestQueue(TestCase):
     def test_is_empty(self):
         q = Queue()
         self.assertEqual(q.is_empty(), True)
